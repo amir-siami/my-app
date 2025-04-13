@@ -4,7 +4,7 @@ export default function Square({
   value,
   onChangeSquare,
 }: {
-  value: number;
+  value: string | null;
   onChangeSquare: () => void;
 }) {
   return (
